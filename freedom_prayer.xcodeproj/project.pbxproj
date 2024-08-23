@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34561ECB2C76F935005E338A /* freedom_prayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561ECA2C76F935005E338A /* freedom_prayerApp.swift */; };
+		34561ECD2C76F935005E338A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561ECC2C76F935005E338A /* ContentView.swift */; };
+		34561ECF2C76F937005E338A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34561ECE2C76F937005E338A /* Assets.xcassets */; };
+		34561ED22C76F937005E338A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34561ED12C76F937005E338A /* Preview Assets.xcassets */; };
+		34561EDC2C76F938005E338A /* freedom_prayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EDB2C76F938005E338A /* freedom_prayerTests.swift */; };
+		34561EE62C76F938005E338A /* freedom_prayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EE52C76F938005E338A /* freedom_prayerUITests.swift */; };
+		34561EE82C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EE72C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift */; };
+		34561EF52C76F9FD005E338A /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EF42C76F9FD005E338A /* MainMenu.swift */; };
+		34561EF72C76FA0C005E338A /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EF62C76FA0C005E338A /* Prayer.swift */; };
+		34561EF92C76FA1B005E338A /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EF82C76FA1B005E338A /* Notes.swift */; };
+		34561EFB2C77723E005E338A /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EFA2C77723E005E338A /* data.swift */; };
+		34561F002C78CB05005E338A /* FreedomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EFF2C78CB05005E338A /* FreedomModel.swift */; };
+		34561F022C78CC44005E338A /* howToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561F012C78CC44005E338A /* howToUse.swift */; };
+		34BD8A1A2C79439D002C410E /* PraiseAndWorship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A192C79439D002C410E /* PraiseAndWorship.swift */; };
+		34BD8A1D2C795209002C410E /* Thanksgiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A1C2C795209002C410E /* Thanksgiving.swift */; };
+		34BD8A1F2C795223002C410E /* Repentance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A1E2C795223002C410E /* Repentance.swift */; };
+		34BD8A212C795234002C410E /* Forgiveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A202C795234002C410E /* Forgiveness.swift */; };
+		34BD8A232C795310002C410E /* CleansingOfEyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A222C795310002C410E /* CleansingOfEyes.swift */; };
+		34BD8A252C795322002C410E /* CleansingOfThoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A242C795322002C410E /* CleansingOfThoughts.swift */; };
+		34BD8A272C795333002C410E /* RenouncingPrayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A262C795333002C410E /* RenouncingPrayer.swift */; };
+		34BD8A292C7953B6002C410E /* JesusBlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A282C7953B6002C410E /* JesusBlood.swift */; };
+		34BD8A2B2C7953E5002C410E /* Intercession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2A2C7953E5002C410E /* Intercession.swift */; };
+		34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2C2C7953F1002C410E /* Petition.swift */; };
+		34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2E2C795405002C410E /* ScripturalRosary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34561ED82C76F938005E338A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34561EBF2C76F934005E338A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34561EC62C76F934005E338A;
+			remoteInfo = freedom_prayer;
+		};
+		34561EE22C76F938005E338A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34561EBF2C76F934005E338A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34561EC62C76F934005E338A;
+			remoteInfo = freedom_prayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34561EC72C76F934005E338A /* freedom_prayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freedom_prayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34561ECA2C76F935005E338A /* freedom_prayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedom_prayerApp.swift; sourceTree = "<group>"; };
+		34561ECC2C76F935005E338A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34561ECE2C76F937005E338A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34561ED12C76F937005E338A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34561ED72C76F938005E338A /* freedom_prayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedom_prayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34561EDB2C76F938005E338A /* freedom_prayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedom_prayerTests.swift; sourceTree = "<group>"; };
+		34561EE12C76F938005E338A /* freedom_prayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedom_prayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34561EE52C76F938005E338A /* freedom_prayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedom_prayerUITests.swift; sourceTree = "<group>"; };
+		34561EE72C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedom_prayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34561EF42C76F9FD005E338A /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		34561EF62C76FA0C005E338A /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		34561EF82C76FA1B005E338A /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		34561EFA2C77723E005E338A /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		34561EFF2C78CB05005E338A /* FreedomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomModel.swift; sourceTree = "<group>"; };
+		34561F012C78CC44005E338A /* howToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToUse.swift; sourceTree = "<group>"; };
+		34BD8A192C79439D002C410E /* PraiseAndWorship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraiseAndWorship.swift; sourceTree = "<group>"; };
+		34BD8A1C2C795209002C410E /* Thanksgiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thanksgiving.swift; sourceTree = "<group>"; };
+		34BD8A1E2C795223002C410E /* Repentance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repentance.swift; sourceTree = "<group>"; };
+		34BD8A202C795234002C410E /* Forgiveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgiveness.swift; sourceTree = "<group>"; };
+		34BD8A222C795310002C410E /* CleansingOfEyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleansingOfEyes.swift; sourceTree = "<group>"; };
+		34BD8A242C795322002C410E /* CleansingOfThoughts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleansingOfThoughts.swift; sourceTree = "<group>"; };
+		34BD8A262C795333002C410E /* RenouncingPrayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenouncingPrayer.swift; sourceTree = "<group>"; };
+		34BD8A282C7953B6002C410E /* JesusBlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesusBlood.swift; sourceTree = "<group>"; };
+		34BD8A2A2C7953E5002C410E /* Intercession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercession.swift; sourceTree = "<group>"; };
+		34BD8A2C2C7953F1002C410E /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		34BD8A2E2C795405002C410E /* ScripturalRosary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScripturalRosary.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34561EC42C76F934005E338A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34561ED42C76F938005E338A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34561EDE2C76F938005E338A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34561EBE2C76F934005E338A = {
+			isa = PBXGroup;
+			children = (
+				34561EC92C76F934005E338A /* freedom_prayer */,
+				34561EDA2C76F938005E338A /* freedom_prayerTests */,
+				34561EE42C76F938005E338A /* freedom_prayerUITests */,
+				34561EC82C76F934005E338A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34561EC82C76F934005E338A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34561EC72C76F934005E338A /* freedom_prayer.app */,
+				34561ED72C76F938005E338A /* freedom_prayerTests.xctest */,
+				34561EE12C76F938005E338A /* freedom_prayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34561EC92C76F934005E338A /* freedom_prayer */ = {
+			isa = PBXGroup;
+			children = (
+				34561EFE2C78CADE005E338A /* Data */,
+				34561EFD2C78CAD7005E338A /* Model */,
+				34561EFC2C78CAC7005E338A /* View */,
+				34561ECE2C76F937005E338A /* Assets.xcassets */,
+				34561ED02C76F937005E338A /* Preview Content */,
+			);
+			path = freedom_prayer;
+			sourceTree = "<group>";
+		};
+		34561ED02C76F937005E338A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34561ED12C76F937005E338A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34561EDA2C76F938005E338A /* freedom_prayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				34561EDB2C76F938005E338A /* freedom_prayerTests.swift */,
+			);
+			path = freedom_prayerTests;
+			sourceTree = "<group>";
+		};
+		34561EE42C76F938005E338A /* freedom_prayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34561EE52C76F938005E338A /* freedom_prayerUITests.swift */,
+				34561EE72C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift */,
+			);
+			path = freedom_prayerUITests;
+			sourceTree = "<group>";
+		};
+		34561EFC2C78CAC7005E338A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34561EF82C76FA1B005E338A /* Notes.swift */,
+				34561EF42C76F9FD005E338A /* MainMenu.swift */,
+				34561ECA2C76F935005E338A /* freedom_prayerApp.swift */,
+				34561ECC2C76F935005E338A /* ContentView.swift */,
+				34561EF62C76FA0C005E338A /* Prayer.swift */,
+				34561F012C78CC44005E338A /* howToUse.swift */,
+				34BD8A1B2C7951A8002C410E /* Prayers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34561EFD2C78CAD7005E338A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34561EFF2C78CB05005E338A /* FreedomModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34561EFE2C78CADE005E338A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				34561EFA2C77723E005E338A /* data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		34BD8A1B2C7951A8002C410E /* Prayers */ = {
+			isa = PBXGroup;
+			children = (
+				34BD8A192C79439D002C410E /* PraiseAndWorship.swift */,
+				34BD8A1C2C795209002C410E /* Thanksgiving.swift */,
+				34BD8A1E2C795223002C410E /* Repentance.swift */,
+				34BD8A202C795234002C410E /* Forgiveness.swift */,
+				34BD8A222C795310002C410E /* CleansingOfEyes.swift */,
+				34BD8A242C795322002C410E /* CleansingOfThoughts.swift */,
+				34BD8A262C795333002C410E /* RenouncingPrayer.swift */,
+				34BD8A282C7953B6002C410E /* JesusBlood.swift */,
+				34BD8A2A2C7953E5002C410E /* Intercession.swift */,
+				34BD8A2C2C7953F1002C410E /* Petition.swift */,
+				34BD8A2E2C795405002C410E /* ScripturalRosary.swift */,
+			);
+			path = Prayers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34561EC62C76F934005E338A /* freedom_prayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34561EEB2C76F938005E338A /* Build configuration list for PBXNativeTarget "freedom_prayer" */;
+			buildPhases = (
+				34561EC32C76F934005E338A /* Sources */,
+				34561EC42C76F934005E338A /* Frameworks */,
+				34561EC52C76F934005E338A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freedom_prayer;
+			productName = freedom_prayer;
+			productReference = 34561EC72C76F934005E338A /* freedom_prayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34561ED62C76F938005E338A /* freedom_prayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34561EEE2C76F938005E338A /* Build configuration list for PBXNativeTarget "freedom_prayerTests" */;
+			buildPhases = (
+				34561ED32C76F938005E338A /* Sources */,
+				34561ED42C76F938005E338A /* Frameworks */,
+				34561ED52C76F938005E338A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34561ED92C76F938005E338A /* PBXTargetDependency */,
+			);
+			name = freedom_prayerTests;
+			productName = freedom_prayerTests;
+			productReference = 34561ED72C76F938005E338A /* freedom_prayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34561EE02C76F938005E338A /* freedom_prayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34561EF12C76F938005E338A /* Build configuration list for PBXNativeTarget "freedom_prayerUITests" */;
+			buildPhases = (
+				34561EDD2C76F938005E338A /* Sources */,
+				34561EDE2C76F938005E338A /* Frameworks */,
+				34561EDF2C76F938005E338A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34561EE32C76F938005E338A /* PBXTargetDependency */,
+			);
+			name = freedom_prayerUITests;
+			productName = freedom_prayerUITests;
+			productReference = 34561EE12C76F938005E338A /* freedom_prayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34561EBF2C76F934005E338A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					34561EC62C76F934005E338A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					34561ED62C76F938005E338A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 34561EC62C76F934005E338A;
+					};
+					34561EE02C76F938005E338A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 34561EC62C76F934005E338A;
+					};
+				};
+			};
+			buildConfigurationList = 34561EC22C76F934005E338A /* Build configuration list for PBXProject "freedom_prayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34561EBE2C76F934005E338A;
+			productRefGroup = 34561EC82C76F934005E338A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34561EC62C76F934005E338A /* freedom_prayer */,
+				34561ED62C76F938005E338A /* freedom_prayerTests */,
+				34561EE02C76F938005E338A /* freedom_prayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34561EC52C76F934005E338A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34561ED22C76F937005E338A /* Preview Assets.xcassets in Resources */,
+				34561ECF2C76F937005E338A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34561ED52C76F938005E338A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34561EDF2C76F938005E338A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34561EC32C76F934005E338A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BD8A1D2C795209002C410E /* Thanksgiving.swift in Sources */,
+				34BD8A1A2C79439D002C410E /* PraiseAndWorship.swift in Sources */,
+				34561ECD2C76F935005E338A /* ContentView.swift in Sources */,
+				34BD8A2B2C7953E5002C410E /* Intercession.swift in Sources */,
+				34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */,
+				34BD8A252C795322002C410E /* CleansingOfThoughts.swift in Sources */,
+				34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */,
+				34BD8A272C795333002C410E /* RenouncingPrayer.swift in Sources */,
+				34BD8A292C7953B6002C410E /* JesusBlood.swift in Sources */,
+				34BD8A212C795234002C410E /* Forgiveness.swift in Sources */,
+				34561EF92C76FA1B005E338A /* Notes.swift in Sources */,
+				34561EF52C76F9FD005E338A /* MainMenu.swift in Sources */,
+				34BD8A232C795310002C410E /* CleansingOfEyes.swift in Sources */,
+				34561EFB2C77723E005E338A /* data.swift in Sources */,
+				34BD8A1F2C795223002C410E /* Repentance.swift in Sources */,
+				34561F002C78CB05005E338A /* FreedomModel.swift in Sources */,
+				34561EF72C76FA0C005E338A /* Prayer.swift in Sources */,
+				34561ECB2C76F935005E338A /* freedom_prayerApp.swift in Sources */,
+				34561F022C78CC44005E338A /* howToUse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34561ED32C76F938005E338A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34561EDC2C76F938005E338A /* freedom_prayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34561EDD2C76F938005E338A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34561EE82C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift in Sources */,
+				34561EE62C76F938005E338A /* freedom_prayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34561ED92C76F938005E338A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34561EC62C76F934005E338A /* freedom_prayer */;
+			targetProxy = 34561ED82C76F938005E338A /* PBXContainerItemProxy */;
+		};
+		34561EE32C76F938005E338A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34561EC62C76F934005E338A /* freedom_prayer */;
+			targetProxy = 34561EE22C76F938005E338A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34561EE92C76F938005E338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34561EEA2C76F938005E338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34561EEC2C76F938005E338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"freedom_prayer/Preview Content\"";
+				DEVELOPMENT_TEAM = K4VURV78GD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giftedbookstore.freedom-prayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34561EED2C76F938005E338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"freedom_prayer/Preview Content\"";
+				DEVELOPMENT_TEAM = K4VURV78GD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giftedbookstore.freedom-prayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34561EEF2C76F938005E338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4VURV78GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giftedbookstore.freedom-prayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freedom_prayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/freedom_prayer";
+			};
+			name = Debug;
+		};
+		34561EF02C76F938005E338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4VURV78GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giftedbookstore.freedom-prayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freedom_prayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/freedom_prayer";
+			};
+			name = Release;
+		};
+		34561EF22C76F938005E338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4VURV78GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giftedbookstore.freedom-prayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = freedom_prayer;
+			};
+			name = Debug;
+		};
+		34561EF32C76F938005E338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4VURV78GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giftedbookstore.freedom-prayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = freedom_prayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34561EC22C76F934005E338A /* Build configuration list for PBXProject "freedom_prayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34561EE92C76F938005E338A /* Debug */,
+				34561EEA2C76F938005E338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34561EEB2C76F938005E338A /* Build configuration list for PBXNativeTarget "freedom_prayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34561EEC2C76F938005E338A /* Debug */,
+				34561EED2C76F938005E338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34561EEE2C76F938005E338A /* Build configuration list for PBXNativeTarget "freedom_prayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34561EEF2C76F938005E338A /* Debug */,
+				34561EF02C76F938005E338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34561EF12C76F938005E338A /* Build configuration list for PBXNativeTarget "freedom_prayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34561EF22C76F938005E338A /* Debug */,
+				34561EF32C76F938005E338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34561EBF2C76F934005E338A /* Project object */;
+}
