@@ -9,10 +9,27 @@ import Foundation
 import SwiftUI
 
 struct prayerModel: Identifiable {
-    let id: Int
-    let prayerName: String
+    var id: Int
+    var prayerName: String
     var prayerLink: AnyView
-    
-    
-    
+}
+
+struct notesModel: Identifiable {
+    var id: Int
+    var notesName: String
+    var notesLink: AnyView
+}
+
+struct mainModel: Identifiable {
+    var id: Int
+    var mainName: String
+    var mainLink: AnyView
+}
+
+struct paperbackModel: Identifiable {
+    var id: Int
+    var image: String
+    var name: String
+    var subName: String
+    var description: String
 }

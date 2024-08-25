@@ -31,6 +31,7 @@
 		34BD8A2B2C7953E5002C410E /* Intercession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2A2C7953E5002C410E /* Intercession.swift */; };
 		34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2C2C7953F1002C410E /* Petition.swift */; };
 		34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2E2C795405002C410E /* ScripturalRosary.swift */; };
+		34BD8A362C7B922C002C410E /* Paperback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A352C7B922C002C410E /* Paperback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		34BD8A2A2C7953E5002C410E /* Intercession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercession.swift; sourceTree = "<group>"; };
 		34BD8A2C2C7953F1002C410E /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		34BD8A2E2C795405002C410E /* ScripturalRosary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScripturalRosary.swift; sourceTree = "<group>"; };
+		34BD8A352C7B922C002C410E /* Paperback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paperback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,10 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				34561EF82C76FA1B005E338A /* Notes.swift */,
-				34561EF42C76F9FD005E338A /* MainMenu.swift */,
+				34BD8A342C7B91E4002C410E /* Main_Menu */,
 				34561ECA2C76F935005E338A /* freedom_prayerApp.swift */,
 				34561ECC2C76F935005E338A /* ContentView.swift */,
-				34561EF62C76FA0C005E338A /* Prayer.swift */,
 				34561F012C78CC44005E338A /* howToUse.swift */,
 				34BD8A1B2C7951A8002C410E /* Prayers */,
 			);
@@ -195,6 +196,7 @@
 		34BD8A1B2C7951A8002C410E /* Prayers */ = {
 			isa = PBXGroup;
 			children = (
+				34561EF62C76FA0C005E338A /* Prayer.swift */,
 				34BD8A192C79439D002C410E /* PraiseAndWorship.swift */,
 				34BD8A1C2C795209002C410E /* Thanksgiving.swift */,
 				34BD8A1E2C795223002C410E /* Repentance.swift */,
@@ -208,6 +210,15 @@
 				34BD8A2E2C795405002C410E /* ScripturalRosary.swift */,
 			);
 			path = Prayers;
+			sourceTree = "<group>";
+		};
+		34BD8A342C7B91E4002C410E /* Main_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				34561EF42C76F9FD005E338A /* MainMenu.swift */,
+				34BD8A352C7B922C002C410E /* Paperback.swift */,
+			);
+			path = Main_Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +358,7 @@
 				34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */,
 				34BD8A252C795322002C410E /* CleansingOfThoughts.swift in Sources */,
 				34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */,
+				34BD8A362C7B922C002C410E /* Paperback.swift in Sources */,
 				34BD8A272C795333002C410E /* RenouncingPrayer.swift in Sources */,
 				34BD8A292C7953B6002C410E /* JesusBlood.swift in Sources */,
 				34BD8A212C795234002C410E /* Forgiveness.swift in Sources */,

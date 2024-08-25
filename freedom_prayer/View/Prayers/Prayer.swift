@@ -11,7 +11,12 @@ struct Prayer: View {
     
     let prayers: [prayerModel] = prayerData
     
-    var notes : [String] = ["Prayer", "Notes", "Paperback", "Ebooks (Kindle)", "Ebooks(Apple Books)", "Apps", "Visit our Website", "Author Page", "Copyright", "Prayer", "Notes", "Paperback", "Ebooks (Kindle)", "Ebooks(Apple Books)", "Apps", "Visit our Website", "Author Page", "Copyright"]
+    init() {
+      // Large Navigation Title
+      UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.color1]
+      // Inline Navigation Title
+      UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.color1]
+    }
     
     var body: some View {
         
@@ -30,12 +35,14 @@ struct Prayer: View {
                                 .multilineTextAlignment(.leading)
                         }
                         Divider()
+                            .background(.color1)
                     }
                 }
                 .padding()
             }
             .navigationTitle("Prayer")
-        }
+        }//: NAVSTACK
+        .tint(.color1)
     }
 }
 

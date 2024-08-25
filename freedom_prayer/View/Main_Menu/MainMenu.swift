@@ -1,5 +1,5 @@
 //
-//  Notes.swift
+//  MainMenu.swift
 //  freedom_prayer
 //
 //  Created by Charles Michael on 8/21/24.
@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-
-
-struct Notes: View {
+struct MainMenu: View {
     
-    let notes: [notesModel] = notesData
+    
     
     init() {
       // Large Navigation Title
@@ -20,19 +18,20 @@ struct Notes: View {
       UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.color1]
     }
     
+    let mainMenu: [mainModel] = mainData
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack (alignment: .leading){
-                    ForEach(notes) { item in
+                    ForEach(mainMenu) { item in
                         NavigationLink  {
-                            item.notesLink
+                            item.mainLink
                         } label : {
-                            Text( item.notesName)
+                            Text( item.mainName)
                                 .font(.title2)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.primary)
+                                .foregroundColor(.color1)
                                 .multilineTextAlignment(.leading)
                         }
                         Divider()
@@ -41,13 +40,12 @@ struct Notes: View {
                 }
                 .padding()
             }
-            .navigationTitle("Notes")
-//            .foregroundColor(.color1)
-        } //: NAVSTACK
+            .navigationTitle("Main Menu")
+        }
         .tint(.color1)
     }
 }
 
 #Preview {
-    Notes().preferredColorScheme(.light)
+    MainMenu()
 }
