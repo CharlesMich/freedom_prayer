@@ -41,14 +41,14 @@ let notesData: [notesModel] = [
 
 let mainData: [mainModel] = [
     mainModel(id:1, mainName: "Prayer", mainLink: AnyView(Prayer())),
-    mainModel(id:2, mainName: "Notes", mainLink: AnyView(Prayer())),
-    mainModel(id:3, mainName: "Paperback", mainLink: AnyView(Prayer())),
-    mainModel(id:4, mainName: "Ebooks (Kindle)", mainLink: AnyView(Prayer())),
-    mainModel(id:5, mainName: "Ebooks(Apple Books)", mainLink: AnyView(Prayer())),
-    mainModel(id:6, mainName:"Apps", mainLink: AnyView(Prayer())),
+    mainModel(id:2, mainName: "Notes", mainLink: AnyView(Notes())),
+    mainModel(id:3, mainName: "Paperback", mainLink: AnyView(Paperback())),
+    mainModel(id:4, mainName: "Ebooks (Kindle)", mainLink: AnyView(Kindle())),
+    mainModel(id:5, mainName: "Ebooks(Apple Books)", mainLink: AnyView(AppleBooks())),
+    mainModel(id:6, mainName:"Apps", mainLink: AnyView(Apps())),
     mainModel(id:7, mainName: "Visit our Website", mainLink: AnyView(Prayer())),
     mainModel(id:8, mainName: "Author Page", mainLink: AnyView(Prayer())),
-    mainModel(id:9, mainName: "Copyright", mainLink: AnyView(Prayer())),
+    mainModel(id:9, mainName: "Copyright", mainLink: AnyView(Copyright())),
 ]
 
 let paperbackData: [paperbackModel] = [
