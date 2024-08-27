@@ -33,3 +33,11 @@ struct paperbackModel: Identifiable {
     var subName: String
     var description: String
 }
+
+struct kindleModel: Identifiable {
+    var id: Int
+    var image: String
+    var name: String
+    var subName: String
+    var description: String
+}

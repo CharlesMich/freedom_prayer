@@ -14,8 +14,6 @@
 		34561EDC2C76F938005E338A /* freedom_prayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EDB2C76F938005E338A /* freedom_prayerTests.swift */; };
 		34561EE62C76F938005E338A /* freedom_prayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EE52C76F938005E338A /* freedom_prayerUITests.swift */; };
 		34561EE82C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EE72C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift */; };
-		34561EF52C76F9FD005E338A /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EF42C76F9FD005E338A /* MainMenu.swift */; };
-		34561EF72C76FA0C005E338A /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EF62C76FA0C005E338A /* Prayer.swift */; };
 		34561EF92C76FA1B005E338A /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EF82C76FA1B005E338A /* Notes.swift */; };
 		34561EFB2C77723E005E338A /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EFA2C77723E005E338A /* data.swift */; };
 		34561F002C78CB05005E338A /* FreedomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561EFF2C78CB05005E338A /* FreedomModel.swift */; };
@@ -31,11 +29,13 @@
 		34BD8A2B2C7953E5002C410E /* Intercession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2A2C7953E5002C410E /* Intercession.swift */; };
 		34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2C2C7953F1002C410E /* Petition.swift */; };
 		34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A2E2C795405002C410E /* ScripturalRosary.swift */; };
-		34BD8A362C7B922C002C410E /* Paperback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A352C7B922C002C410E /* Paperback.swift */; };
-		34BD8A382C7BC9FD002C410E /* Copyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A372C7BC9FD002C410E /* Copyright.swift */; };
-		34BD8A3A2C7BCA22002C410E /* Kindle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A392C7BCA22002C410E /* Kindle.swift */; };
-		34BD8A3C2C7BCA37002C410E /* AppleBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A3B2C7BCA37002C410E /* AppleBooks.swift */; };
-		34BD8A3E2C7BCAB4002C410E /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A3D2C7BCAB4002C410E /* Apps.swift */; };
+		34BD8A962C7E7817002C410E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A952C7E7817002C410E /* MainMenu.swift */; };
+		34BD8A982C7E7867002C410E /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A972C7E7867002C410E /* Prayer.swift */; };
+		34BD8A9B2C7E7944002C410E /* Paperback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A9A2C7E7944002C410E /* Paperback.swift */; };
+		34BD8A9D2C7E7964002C410E /* Kindle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A9C2C7E7964002C410E /* Kindle.swift */; };
+		34BD8A9F2C7E797D002C410E /* AppleBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A9E2C7E797D002C410E /* AppleBooks.swift */; };
+		34BD8AA12C7E798E002C410E /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8AA02C7E798E002C410E /* Apps.swift */; };
+		34BD8AA32C7E7A79002C410E /* Copyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8AA22C7E7A79002C410E /* Copyright.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,6 @@
 		34561EE12C76F938005E338A /* freedom_prayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedom_prayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34561EE52C76F938005E338A /* freedom_prayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedom_prayerUITests.swift; sourceTree = "<group>"; };
 		34561EE72C76F938005E338A /* freedom_prayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedom_prayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		34561EF42C76F9FD005E338A /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
-		34561EF62C76FA0C005E338A /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
 		34561EF82C76FA1B005E338A /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		34561EFA2C77723E005E338A /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		34561EFF2C78CB05005E338A /* FreedomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomModel.swift; sourceTree = "<group>"; };
@@ -83,11 +81,13 @@
 		34BD8A2A2C7953E5002C410E /* Intercession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercession.swift; sourceTree = "<group>"; };
 		34BD8A2C2C7953F1002C410E /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		34BD8A2E2C795405002C410E /* ScripturalRosary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScripturalRosary.swift; sourceTree = "<group>"; };
-		34BD8A352C7B922C002C410E /* Paperback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paperback.swift; sourceTree = "<group>"; };
-		34BD8A372C7BC9FD002C410E /* Copyright.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copyright.swift; sourceTree = "<group>"; };
-		34BD8A392C7BCA22002C410E /* Kindle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindle.swift; sourceTree = "<group>"; };
-		34BD8A3B2C7BCA37002C410E /* AppleBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBooks.swift; sourceTree = "<group>"; };
-		34BD8A3D2C7BCAB4002C410E /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		34BD8A952C7E7817002C410E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		34BD8A972C7E7867002C410E /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		34BD8A9A2C7E7944002C410E /* Paperback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paperback.swift; sourceTree = "<group>"; };
+		34BD8A9C2C7E7964002C410E /* Kindle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindle.swift; sourceTree = "<group>"; };
+		34BD8A9E2C7E797D002C410E /* AppleBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBooks.swift; sourceTree = "<group>"; };
+		34BD8AA02C7E798E002C410E /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		34BD8AA22C7E7A79002C410E /* Copyright.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copyright.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +138,7 @@
 		34561EC92C76F934005E338A /* freedom_prayer */ = {
 			isa = PBXGroup;
 			children = (
+				34561F392C7D6ED4005E338A /* App */,
 				34561EFE2C78CADE005E338A /* Data */,
 				34561EFD2C78CAD7005E338A /* Model */,
 				34561EFC2C78CAC7005E338A /* View */,
@@ -175,12 +176,12 @@
 		34561EFC2C78CAC7005E338A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				34BD8A992C7E791C002C410E /* Main */,
+				34BD8A952C7E7817002C410E /* MainMenu.swift */,
 				34561EF82C76FA1B005E338A /* Notes.swift */,
-				34BD8A342C7B91E4002C410E /* Main_Menu */,
-				34561ECA2C76F935005E338A /* freedom_prayerApp.swift */,
-				34561ECC2C76F935005E338A /* ContentView.swift */,
 				34561F012C78CC44005E338A /* howToUse.swift */,
 				34BD8A1B2C7951A8002C410E /* Prayers */,
+				34BD8A972C7E7867002C410E /* Prayer.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,10 +202,18 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		34561F392C7D6ED4005E338A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				34561ECC2C76F935005E338A /* ContentView.swift */,
+				34561ECA2C76F935005E338A /* freedom_prayerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		34BD8A1B2C7951A8002C410E /* Prayers */ = {
 			isa = PBXGroup;
 			children = (
-				34561EF62C76FA0C005E338A /* Prayer.swift */,
 				34BD8A192C79439D002C410E /* PraiseAndWorship.swift */,
 				34BD8A1C2C795209002C410E /* Thanksgiving.swift */,
 				34BD8A1E2C795223002C410E /* Repentance.swift */,
@@ -220,17 +229,16 @@
 			path = Prayers;
 			sourceTree = "<group>";
 		};
-		34BD8A342C7B91E4002C410E /* Main_Menu */ = {
+		34BD8A992C7E791C002C410E /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				34561EF42C76F9FD005E338A /* MainMenu.swift */,
-				34BD8A352C7B922C002C410E /* Paperback.swift */,
-				34BD8A372C7BC9FD002C410E /* Copyright.swift */,
-				34BD8A392C7BCA22002C410E /* Kindle.swift */,
-				34BD8A3B2C7BCA37002C410E /* AppleBooks.swift */,
-				34BD8A3D2C7BCAB4002C410E /* Apps.swift */,
+				34BD8A9A2C7E7944002C410E /* Paperback.swift */,
+				34BD8A9C2C7E7964002C410E /* Kindle.swift */,
+				34BD8A9E2C7E797D002C410E /* AppleBooks.swift */,
+				34BD8AA02C7E798E002C410E /* Apps.swift */,
+				34BD8AA22C7E7A79002C410E /* Copyright.swift */,
 			);
-			path = Main_Menu;
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,28 +372,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BD8A1D2C795209002C410E /* Thanksgiving.swift in Sources */,
+				34BD8A9F2C7E797D002C410E /* AppleBooks.swift in Sources */,
 				34BD8A1A2C79439D002C410E /* PraiseAndWorship.swift in Sources */,
-				34BD8A3A2C7BCA22002C410E /* Kindle.swift in Sources */,
 				34561ECD2C76F935005E338A /* ContentView.swift in Sources */,
 				34BD8A2B2C7953E5002C410E /* Intercession.swift in Sources */,
-				34BD8A382C7BC9FD002C410E /* Copyright.swift in Sources */,
+				34BD8AA12C7E798E002C410E /* Apps.swift in Sources */,
 				34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */,
+				34BD8A9D2C7E7964002C410E /* Kindle.swift in Sources */,
 				34BD8A252C795322002C410E /* CleansingOfThoughts.swift in Sources */,
 				34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */,
-				34BD8A3E2C7BCAB4002C410E /* Apps.swift in Sources */,
-				34BD8A362C7B922C002C410E /* Paperback.swift in Sources */,
+				34BD8A9B2C7E7944002C410E /* Paperback.swift in Sources */,
+				34BD8A962C7E7817002C410E /* MainMenu.swift in Sources */,
 				34BD8A272C795333002C410E /* RenouncingPrayer.swift in Sources */,
 				34BD8A292C7953B6002C410E /* JesusBlood.swift in Sources */,
 				34BD8A212C795234002C410E /* Forgiveness.swift in Sources */,
 				34561EF92C76FA1B005E338A /* Notes.swift in Sources */,
-				34561EF52C76F9FD005E338A /* MainMenu.swift in Sources */,
 				34BD8A232C795310002C410E /* CleansingOfEyes.swift in Sources */,
 				34561EFB2C77723E005E338A /* data.swift in Sources */,
-				34BD8A3C2C7BCA37002C410E /* AppleBooks.swift in Sources */,
 				34BD8A1F2C795223002C410E /* Repentance.swift in Sources */,
+				34BD8AA32C7E7A79002C410E /* Copyright.swift in Sources */,
 				34561F002C78CB05005E338A /* FreedomModel.swift in Sources */,
-				34561EF72C76FA0C005E338A /* Prayer.swift in Sources */,
 				34561ECB2C76F935005E338A /* freedom_prayerApp.swift in Sources */,
+				34BD8A982C7E7867002C410E /* Prayer.swift in Sources */,
 				34561F022C78CC44005E338A /* howToUse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

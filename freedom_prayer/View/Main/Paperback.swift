@@ -17,22 +17,16 @@ struct Paperback: View {
                 VStack {
                     Spacer()
                     ForEach(paperback) {item in
-                        VStack (alignment: .center, spacing: 10){
+                        VStack {
                            
                             Image(item.image)
                             Text(item.name)
                                 .font(.title2)
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                .multilineTextAlignment(.center)
-                                
                             Text(item.description)
                                 .font(.caption)
-                                .multilineTextAlignment(.center)
-//                            Spacer()
+                            Spacer()
                         }//:VSACK
-                        .padding(.bottom, 20)
-                        .padding(.leading, 10)
-                        .padding(.trailing)
                     }//:VSTACK
                 }
             }
