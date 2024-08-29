@@ -40,15 +40,15 @@ let notesData: [notesModel] = [
 ]
 
 let mainData: [mainModel] = [
-    mainModel(id:1, mainName: "Prayer", mainLink: AnyView(Prayer())),
-    mainModel(id:2, mainName: "Notes", mainLink: AnyView(Notes())),
-    mainModel(id:3, mainName: "Paperback", mainLink: AnyView(Paperback())),
-    mainModel(id:4, mainName: "Ebooks (Kindle)", mainLink: AnyView(Kindle())),
-    mainModel(id:5, mainName: "Ebooks(Apple Books)", mainLink: AnyView(AppleBooks())),
-    mainModel(id:6, mainName:"Apps", mainLink: AnyView(Apps())),
-    mainModel(id:7, mainName: "Visit our Website", mainLink: AnyView(Prayer())),
-    mainModel(id:8, mainName: "Author Page", mainLink: AnyView(Prayer())),
-    mainModel(id:9, mainName: "Copyright", mainLink: AnyView(Copyright())),
+    mainModel(id:1, mainName: "Prayer", mainLink: AnyView(Prayer1()), urlLink: "sdfsd"),
+    mainModel(id:2, mainName: "Notes", mainLink: AnyView(Notes()), urlLink:"dfsdfdf"),
+    mainModel(id:3, mainName: "Paperback", mainLink: AnyView(Paperback()), urlLink:"sdfsdf"),
+    mainModel(id:4, mainName: "Ebooks (Kindle)", mainLink: AnyView(Kindle()), urlLink:"sfsdf"),
+    mainModel(id:5, mainName: "Ebooks(Apple Books)", mainLink: AnyView(AppleBooks()), urlLink:"sdfsdf"),
+    mainModel(id:6, mainName:"Apps", mainLink: AnyView(Apps()), urlLink:"sdfsd"),
+    mainModel(id:7, mainName: "Visit our Website", mainLink:AnyView(Website()), urlLink:"sdfsd"),
+    mainModel(id:8, mainName: "Author Page", mainLink: AnyView(Prayer1()), urlLink:"sdfsdf"),
+    mainModel(id:9, mainName: "Copyright", mainLink: AnyView(Copyright()), urlLink:"sdfsd"),
 ]
 
 let paperbackData: [paperbackModel] = [

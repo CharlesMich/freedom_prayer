@@ -12,6 +12,7 @@ struct prayerModel: Identifiable {
     var id: Int
     var prayerName: String
     var prayerLink: AnyView
+   
 }
 
 struct notesModel: Identifiable {
@@ -24,6 +25,7 @@ struct mainModel: Identifiable {
     var id: Int
     var mainName: String
     var mainLink: AnyView
+    var urlLink: String
 }
 
 struct paperbackModel: Identifiable {

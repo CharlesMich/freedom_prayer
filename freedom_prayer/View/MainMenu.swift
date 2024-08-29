@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MainMenu: View {
+struct Mainmenu: View {
     
     
     
@@ -48,5 +48,5 @@ struct MainMenu: View {
 }
 
 #Preview {
-    MainMenu()
+    Mainmenu()
 }

@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView{
             Group {
-                MainMenu()
+                Mainmenu()
                     .tabItem {
                         Label("Main Menu",
                               systemImage: "circle")
@@ -19,7 +19,7 @@ struct ContentView: View {
                         
                     }
                 
-                Prayer()
+                Prayer1()
                     .tabItem {
                         Label("Prayer", systemImage: "hand.raised.fill")
                     }

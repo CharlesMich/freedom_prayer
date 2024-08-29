@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Prayer: View {
+struct Prayer1: View {
     
     let prayers: [prayerModel] = prayerData
     
@@ -47,5 +47,5 @@ struct Prayer: View {
 }
 
 #Preview {
-    Prayer()
+    Prayer1()
 }
