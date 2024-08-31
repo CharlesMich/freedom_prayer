@@ -38,6 +38,13 @@ struct Mainmenu: View {
                         Divider()
                             .background(.color1)
                     }
+                    VisitWebsite()
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.color1)
+                        .multilineTextAlignment(.leading)
+                    Divider()
+                        .background(.color1)
                 }
                 .padding()
             }

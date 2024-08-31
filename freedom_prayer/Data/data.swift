@@ -46,7 +46,7 @@ let mainData: [mainModel] = [
     mainModel(id:4, mainName: "Ebooks (Kindle)", mainLink: AnyView(Kindle()), urlLink:"sfsdf"),
     mainModel(id:5, mainName: "Ebooks(Apple Books)", mainLink: AnyView(AppleBooks()), urlLink:"sdfsdf"),
     mainModel(id:6, mainName:"Apps", mainLink: AnyView(Apps()), urlLink:"sdfsd"),
-    mainModel(id:7, mainName: "Visit our Website", mainLink:AnyView(Website()), urlLink:"sdfsd"),
+    mainModel(id:7, mainName: "Visit our Website", mainLink:AnyView(VisitWebsite()), urlLink:"sdfsd"),
     mainModel(id:8, mainName: "Author Page", mainLink: AnyView(Prayer1()), urlLink:"sdfsdf"),
     mainModel(id:9, mainName: "Copyright", mainLink: AnyView(Copyright()), urlLink:"sdfsd"),
 ]
