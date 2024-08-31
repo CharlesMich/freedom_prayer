@@ -24,7 +24,7 @@ struct Notes: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack (alignment: .leading){
+                VStack (alignment: .leading, spacing: 15){
                     ForEach(notes) { item in
                         NavigationLink  {
                             item.notesLink

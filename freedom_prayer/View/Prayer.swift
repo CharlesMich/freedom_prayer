@@ -22,7 +22,7 @@ struct Prayer1: View {
         
         NavigationStack {
             ScrollView {
-                VStack (alignment:.leading) {
+                VStack (alignment:.leading, spacing: 15) {
                    
                     ForEach(prayers) {item in
                         NavigationLink  {

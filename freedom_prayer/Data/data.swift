@@ -23,20 +23,20 @@ let prayerData: [prayerModel] = [
 ]
 
 let notesData: [notesModel] = [
-    notesModel(id:1, notesName: "How to use this App", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:2, notesName: "Why do we praise God?", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:3, notesName: "Why do we thank God?", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:4, notesName: "Why should we repent", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:5, notesName: "Why should we forgive", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:6, notesName: "Why should we pray for others", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:7, notesName: "Why should we read the Bible", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:8, notesName: "Bible verses about fornication", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:9, notesName: "Bible verses about fornication", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:10, notesName: "Bible verses about porn and masturbation", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:11, notesName: "Bible verses about prostitution", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:12, notesName: "Bible verses about homosexual sins", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:13, notesName: "Bible versus about our eyes", notesLink: AnyView(PraiseAndWorship())),
-    notesModel(id:14, notesName: "Bible verses about our thoughts", notesLink: AnyView(PraiseAndWorship()))
+    notesModel(id:1, notesName: "How to use this App", notesLink: AnyView(howToUse())),
+    notesModel(id:2, notesName: "Why do we praise God?", notesLink: AnyView(whyDoWePraise())),
+    notesModel(id:3, notesName: "Why do we thank God?", notesLink: AnyView(whyDoWeThank())),
+    notesModel(id:4, notesName: "Why should we repent", notesLink: AnyView(whyDoWeRepent())),
+    notesModel(id:5, notesName: "Why should we forgive", notesLink: AnyView(WhyDoWeForgive())),
+    notesModel(id:6, notesName: "Why should we pray for others", notesLink: AnyView(WhyDoWeIntercede())),
+    notesModel(id:7, notesName: "Why should we read the Bible", notesLink: AnyView(WhyDoWeReadBible())),
+    notesModel(id:8, notesName: "Bible verses about fornication", notesLink: AnyView(Fornication())),
+    notesModel(id:9, notesName: "Bible verses about Adultery", notesLink: AnyView(Adultery())),
+    notesModel(id:10, notesName: "Bible verses about porn and masturbation", notesLink: AnyView(Porn())),
+    notesModel(id:11, notesName: "Bible verses about prostitution", notesLink: AnyView(Prostitution())),
+    notesModel(id:12, notesName: "Bible verses about homosexual sins", notesLink: AnyView(Homosexuality())),
+    notesModel(id:13, notesName: "Bible versus about our eyes", notesLink: AnyView(Eyes())),
+    notesModel(id:14, notesName: "Bible verses about our thoughts", notesLink: AnyView(Thoughts()))
 ]
 
 let mainData: [mainModel] = [

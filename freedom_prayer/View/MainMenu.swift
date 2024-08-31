@@ -24,7 +24,7 @@ struct Mainmenu: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack (alignment: .leading){
+                VStack (alignment: .leading, spacing: 15){
                     ForEach(mainMenu) { item in
                         NavigationLink  {
                             item.mainLink
