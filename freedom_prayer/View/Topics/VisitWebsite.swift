@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VisitWebsite: View {
     var body: some View {
-        Link("Learn SwiftUI", destination: URL(string: "https://www.hackingwithswift.com/quick-start/swiftui")!)
+        Link("Visit our Website", destination: URL(string: "https://www.hackingwithswift.com/quick-start/swiftui")!)
     }
 }
 

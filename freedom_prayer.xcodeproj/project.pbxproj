@@ -36,6 +36,7 @@
 		34561F5C2C811D41005E338A /* Porn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561F5B2C811D41005E338A /* Porn.swift */; };
 		34561F5E2C811D57005E338A /* Homosexuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561F5D2C811D57005E338A /* Homosexuality.swift */; };
 		34561F602C811D70005E338A /* Prostitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561F5F2C811D70005E338A /* Prostitution.swift */; };
+		34561F622C83AFD3005E338A /* AuthorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34561F612C83AFD3005E338A /* AuthorPage.swift */; };
 		34BD8A1A2C79439D002C410E /* PraiseAndWorship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A192C79439D002C410E /* PraiseAndWorship.swift */; };
 		34BD8A1D2C795209002C410E /* Thanksgiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A1C2C795209002C410E /* Thanksgiving.swift */; };
 		34BD8A1F2C795223002C410E /* Repentance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A1E2C795223002C410E /* Repentance.swift */; };
@@ -103,6 +104,7 @@
 		34561F5B2C811D41005E338A /* Porn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porn.swift; sourceTree = "<group>"; };
 		34561F5D2C811D57005E338A /* Homosexuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homosexuality.swift; sourceTree = "<group>"; };
 		34561F5F2C811D70005E338A /* Prostitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prostitution.swift; sourceTree = "<group>"; };
+		34561F612C83AFD3005E338A /* AuthorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorPage.swift; sourceTree = "<group>"; };
 		34BD8A192C79439D002C410E /* PraiseAndWorship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraiseAndWorship.swift; sourceTree = "<group>"; };
 		34BD8A1C2C795209002C410E /* Thanksgiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thanksgiving.swift; sourceTree = "<group>"; };
 		34BD8A1E2C795223002C410E /* Repentance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repentance.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				34561F432C7F5ABC005E338A /* AppleBooks.swift */,
 				34BD8AAC2C801507002C410E /* Website.swift */,
 				34BD8ABC2C8369EB002C410E /* VisitWebsite.swift */,
+				34561F612C83AFD3005E338A /* AuthorPage.swift */,
 			);
 			path = Topics;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				34BD8A2D2C7953F1002C410E /* Petition.swift in Sources */,
 				34561F3C2C7F5A4E005E338A /* Copyright.swift in Sources */,
 				34BD8A272C795333002C410E /* RenouncingPrayer.swift in Sources */,
+				34561F622C83AFD3005E338A /* AuthorPage.swift in Sources */,
 				34561F4E2C80A183005E338A /* whyDoWeThank.swift in Sources */,
 				34BD8A292C7953B6002C410E /* JesusBlood.swift in Sources */,
 				34561F5C2C811D41005E338A /* Porn.swift in Sources */,
