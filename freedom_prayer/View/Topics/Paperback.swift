@@ -14,7 +14,7 @@ struct Paperback: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                                   Spacer()
+                                Spacer()
                     ForEach(paperback) {item in
                         VStack {
                             VStack (alignment: .center, spacing: 10){
