@@ -177,8 +177,28 @@ If your brother has sinned against you, correct him. And if he has repented, for
 ]
 
 let intercedeData: [intercedeModel] = [
-    intercedeModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    intercedeModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:1, header: "Intercession is our duty and obligation", body: "So then, far be it from me, this sin against the Lord, that I would cease to pray for you. (1 Sam 12:23)"),
+    intercedeModel(id:2, header: "People are saved when there is intercession for them", body: """
+    When God overthrew the cities of that region, remembering Abraham, he freed Lot from the overthrow of the cities, in which he had dwelt. (Gen 19:29)
+                   
+    He said that he would destroy them: had not Moses his chosen stood before him in the breach: To turn away his wrath, lest he should destroy them. (Ps 106.23)
+
+    Have seven bulls and seven rams brought to you, and go to my servant Job, and offer these as a burnt offering for yourselves. But also, my servant Job will pray for you; I will accept his prayer, so that foolishness will not be imputed to you. (Job 42:8)
+    """),
+    intercedeModel(id:3, header: "Intercession has the power to make God intervene in a situation", body: """
+    A blameless man, prospering, is to be entreated for your people, bringing forth the shield of your service, through prayer and incense, making prayerful supplication, he withstands anger, and so establishes an end to the necessary difficulty, revealing that he is your servant. (Wis 18:21)
+                   
+        I sought among them for a man who might set up a hedge, and stand in the gap before me on behalf of the land, so that I might not destroy it; and I found no one. (Eze 22:30)
+
+        Then Moses prayed to the Lord his God, saying: “Why, O Lord, is your fury enraged against your people, whom you led away from the land of Egypt, with great strength and with a mighty hand? I beg you, let not the Egyptians say, ‘He cleverly led them away, so that he could put them to death in the mountains and destroy them from the earth.’ Let your anger be quieted and appeased concerning the wickedness of your people. Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your very self, saying: ‘I will multiply your offspring like the stars of heaven. And this entire land, about which I have spoken, I will give to your offspring. And you shall possess it forever.’ ”And the Lord was appeased from doing the evil which he had spoken against his people. (Exo 32:11-14)
+    """),
+    intercedeModel(id:4, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:5, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:6, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:7, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:8, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:9, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:10, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
 ]
 
 let bibleData: [bibleModel] = [
