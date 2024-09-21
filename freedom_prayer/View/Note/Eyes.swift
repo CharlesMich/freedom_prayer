@@ -8,8 +8,38 @@
 import SwiftUI
 
 struct Eyes: View {
+    var eyes : [eyesModel] = eyesData
     var body: some View {
-        Text("Eyes")
+        NavigationStack{
+            ScrollView {
+                VStack (alignment: .leading) {
+                    Text("Bible verses about purity of eyes")
+                        .fontWeight(.bold)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    
+                    VStack(alignment: .leading){
+                        
+                        ForEach(eyes) { item in
+                            VStack (alignment: .leading){
+                                Text(item.header)
+                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                Text(item.body)
+                                Spacer()
+                                Spacer()
+                            }
+                            
+                        }
+                    }
+            }
+           
+            
+            
+           
+            }
+            .padding()
+            .navigationTitle("Eyes")
+           
+        }
     }
 }
 

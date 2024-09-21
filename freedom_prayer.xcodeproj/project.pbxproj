@@ -52,6 +52,8 @@
 		34BD8AB32C8126F9002C410E /* Eyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8AB22C8126F9002C410E /* Eyes.swift */; };
 		34BD8AB52C812717002C410E /* Thoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8AB42C812717002C410E /* Thoughts.swift */; };
 		34BD8ABD2C8369EB002C410E /* VisitWebsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8ABC2C8369EB002C410E /* VisitWebsite.swift */; };
+		34BD8AE12C877FBC002C410E /* Masturbation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8AE02C877FBC002C410E /* Masturbation.swift */; };
+		34D6EA752C88AC48006EF42E /* NotesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6EA742C88AC48006EF42E /* NotesComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,8 @@
 		34BD8AB22C8126F9002C410E /* Eyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyes.swift; sourceTree = "<group>"; };
 		34BD8AB42C812717002C410E /* Thoughts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thoughts.swift; sourceTree = "<group>"; };
 		34BD8ABC2C8369EB002C410E /* VisitWebsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitWebsite.swift; sourceTree = "<group>"; };
+		34BD8AE02C877FBC002C410E /* Masturbation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masturbation.swift; sourceTree = "<group>"; };
+		34D6EA742C88AC48006EF42E /* NotesComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +279,8 @@
 				34561F5F2C811D70005E338A /* Prostitution.swift */,
 				34BD8AB22C8126F9002C410E /* Eyes.swift */,
 				34BD8AB42C812717002C410E /* Thoughts.swift */,
+				34BD8AE02C877FBC002C410E /* Masturbation.swift */,
+				34D6EA742C88AC48006EF42E /* NotesComponent.swift */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -432,6 +438,7 @@
 				34561F402C7F5A7E005E338A /* Paperback.swift in Sources */,
 				34BD8A1A2C79439D002C410E /* PraiseAndWorship.swift in Sources */,
 				34561F442C7F5ABC005E338A /* AppleBooks.swift in Sources */,
+				34D6EA752C88AC48006EF42E /* NotesComponent.swift in Sources */,
 				34561ECD2C76F935005E338A /* ContentView.swift in Sources */,
 				34BD8AB32C8126F9002C410E /* Eyes.swift in Sources */,
 				34561F562C80AA34005E338A /* WhyDoWeIntercede.swift in Sources */,
@@ -439,6 +446,7 @@
 				34561F582C80AB3A005E338A /* Fornication.swift in Sources */,
 				34BD8A2B2C7953E5002C410E /* Intercession.swift in Sources */,
 				34561F5E2C811D57005E338A /* Homosexuality.swift in Sources */,
+				34BD8AE12C877FBC002C410E /* Masturbation.swift in Sources */,
 				34BD8A2F2C795405002C410E /* ScripturalRosary.swift in Sources */,
 				34BD8A252C795322002C410E /* CleansingOfThoughts.swift in Sources */,
 				34561F602C811D70005E338A /* Prostitution.swift in Sources */,

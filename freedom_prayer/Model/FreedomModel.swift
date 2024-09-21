@@ -43,3 +43,87 @@ struct kindleModel: Identifiable {
     var subName: String
     var description: String
 }
+
+struct praiseModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct thankModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct repentModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct forgiveModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct intercedeModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct bibleModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct fornicationModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct adulteryModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct pornModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct homosexualityModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct prostitutionModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct eyesModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct thoughtsModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}
+
+struct masturbationModel: Identifiable {
+    var id: Int
+    var header: String
+    var body: String
+}

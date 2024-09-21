@@ -9,7 +9,17 @@ import SwiftUI
 
 struct PraiseAndWorship: View {
     var body: some View {
-        Text("Praise and Worship")
+        NavigationStack{
+            Text("""
+    Abba Father, you are Almighty, ...I praise and worship you
+    Abba Father, you are Almighty, I praise and worship you
+
+    """)
+            .navigationTitle("Praise and Worship")
+            
+        }
+        
+        
     }
 }
 

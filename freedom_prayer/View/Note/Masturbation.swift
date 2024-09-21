@@ -1,26 +1,25 @@
 //
-//  WhyDoWeIntercede.swift
+//  Masturbation.swift
 //  freedom_prayer
 //
-//  Created by Charles Michael on 8/29/24.
+//  Created by Charles Michael on 9/3/24.
 //
 
 import SwiftUI
 
-struct WhyDoWeIntercede: View {
-    
-    var intercede : [intercedeModel] = intercedeData
+struct Masturbation: View {
+    var masturbation : [masturbationModel] = masturbationData
     var body: some View {
         NavigationStack{
             ScrollView {
                 VStack (alignment: .leading) {
-                    Text("Bible verses about Intercession")
+                    Text("Bible verses about masturbation")
                         .fontWeight(.bold)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     
                     VStack(alignment: .leading){
                         
-                        ForEach(intercede) { item in
+                        ForEach(masturbation) { item in
                             VStack (alignment: .leading){
                                 Text(item.header)
                                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
@@ -38,12 +37,12 @@ struct WhyDoWeIntercede: View {
            
             }
             .padding()
-            .navigationTitle("Intercession")
+            .navigationTitle("Masturbation")
            
         }
     }
 }
 
 #Preview {
-    WhyDoWeIntercede()
+    Masturbation()
 }

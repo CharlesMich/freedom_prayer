@@ -24,7 +24,7 @@ struct howToUse: View {
                 Text( "In addition to using this app, attend daily mass if possible, and go for confession regularly")
             }
             .padding()
-            .font(.system(size: 18))
+            .font(.system(size: 16))
             .navigationTitle("How to use this App")
         }
         

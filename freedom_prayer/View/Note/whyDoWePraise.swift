@@ -8,29 +8,40 @@
 import SwiftUI
 
 struct whyDoWePraise: View {
+    
+    var praise: [praiseModel] = praiseData
+    
     var body: some View {
         NavigationStack{
-            VStack(alignment: .leading){
-                VStack (alignment: .leading){
-                    Text("We get into the presence of God")
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                Text("For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 3.16)")
-                }
-                .padding()
-                VStack (alignment: .leading){
-                    Text("We get into the presence of God")
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                Text("For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 3.16)")
-                }
-                .padding()
-               
+            ScrollView {
+                VStack (alignment: .leading) {
+                    Text("Why do we praise God")
+                        .fontWeight(.bold)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    
+                    VStack(alignment: .leading){
+                        
+                        ForEach(praise) { item in
+                            VStack (alignment: .leading){
+                                Text(item.header)
+                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                Text(item.body)
+                                Spacer()
+                                Spacer()
+                            }
+                            
+                        }
+                    }
             }
-            Spacer()
+           
             
+            
+           
+            }
             .padding()
-                .navigationTitle("Why do we praise God?")
+            .navigationTitle("Praise")
+           
         }
-       
     }
 }
 
