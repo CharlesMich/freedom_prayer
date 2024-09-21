@@ -177,7 +177,8 @@ If your brother has sinned against you, correct him. And if he has repented, for
 ]
 
 let intercedeData: [intercedeModel] = [
-    intercedeModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    intercedeModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
 ]
 
 let bibleData: [bibleModel] = [
