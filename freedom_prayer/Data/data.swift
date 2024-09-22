@@ -192,9 +192,23 @@ let intercedeData: [intercedeModel] = [
 
         Then Moses prayed to the Lord his God, saying: “Why, O Lord, is your fury enraged against your people, whom you led away from the land of Egypt, with great strength and with a mighty hand? I beg you, let not the Egyptians say, ‘He cleverly led them away, so that he could put them to death in the mountains and destroy them from the earth.’ Let your anger be quieted and appeased concerning the wickedness of your people. Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your very self, saying: ‘I will multiply your offspring like the stars of heaven. And this entire land, about which I have spoken, I will give to your offspring. And you shall possess it forever.’ ”And the Lord was appeased from doing the evil which he had spoken against his people. (Exo 32:11-14)
     """),
-    intercedeModel(id:4, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    intercedeModel(id:5, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    intercedeModel(id:6, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
+    intercedeModel(id:4, header: "God will bless us with spiritual gifts (and charisms) when we intercede", body: "And while I was still speaking and praying and confessing my sins, and the sins of my people, Israel, and offering my prayers in the sight of my God, on behalf of the holy mountain of my God, as I was still speaking in prayer, behold, the man Gabriel, whom I had seen in the vision at the beginning, flying swiftly, touched me at the time of the evening sacrifice. And he instructed me, and he spoke to me and said, “Daniel, I have now come out to give you wisdom and understanding.”  (Dan 9:20:22)"),
+    intercedeModel(id:5, header: "Intercession can save people from destruction", body: """
+                He said that he would destroy them: had not Moses his chosen stood before him in the breach: To turn away his wrath, lest he should destroy them. (Ps 106.23)
+                   
+                Have seven bulls and seven rams brought to you, and go to my servant Job, and offer these as a burnt offering for yourselves. But also, my servant Job will pray for you; I will accept his prayer, so that foolishness will not be imputed to you. (Job 42:8)
+"""),
+    intercedeModel(id:6, header: "Because Jesus set us an example", body: """
+                   Christ Jesus who has died, and who has indeed also risen again, is at the right hand of God, and even now he intercedes for us. (Rom 8:34)
+                   
+                   This man, because he continues forever, has an everlasting priesthood. And for this reason, he is able, continuously, to save those who approach God through him, since he is ever alive to make intercession on our behalf. (Heb 7:25)
+
+                   Little children, this I write to you, so that you may not sin. But if anyone has sinned, we have an Advocate with the Father, Jesus Christ, the Just One. (1 Jn 2:1)
+
+                   Jesus did not enter the sanctuary made with human hands, mere examples of the true things, but he entered into Heaven itself, so that he may appear now before the face of God for us.(Heb 9:24)
+
+                   There is one God, and one mediator of God and of men, the man Christ Jesus, who gave himself as a redemption for all, as a testimony in its proper time. (1 Tim 2:5-6)
+    """),
     intercedeModel(id:7, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
     intercedeModel(id:8, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
     intercedeModel(id:9, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
