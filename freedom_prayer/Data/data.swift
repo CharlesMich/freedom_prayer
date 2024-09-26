@@ -259,7 +259,17 @@ I will always keep your law, in this age and forever and ever. I shall walk at l
 ]
 
 let fornicationData: [fornicationModel] = [
-    fornicationModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    fornicationModel(id:1, header: "", body: "This is the will of God, your sanctification: that you should abstain from fornication. (1 Thes 4:3)"),
+    fornicationModel(id:2, header: "", body: "The body is not for fornication, but rather for the Lord; and the Lord is for the body. (1 Cor 6:13)"),
+    fornicationModel(id:3, header: "", body: "Flee from fornication. Every sin whatsoever that a man commits is outside of the body, but whoever fornicates, sins against his own body. (1 Cor 6:18)"),
+    fornicationModel(id:4, header: "", body: "But let not any kind of fornication, or impurity, or rapacity so much as be named among you, just as is worthy of the saints, nor any indecent, or foolish, or abusive talk, for this is without purpose; but instead, give thanks. (Eph 5:3-4)"),
+    fornicationModel(id:5, header: "", body: "(Tob 4:12)"),
+    fornicationModel(id:6, header: "", body: "(Acts 15:29)"),
+    fornicationModel(id:7, header: "", body: "(Rev 22:15)"),
+    fornicationModel(id:8, header: "", body: "The fearful, and the unbelieving, and the abominable, and murderers, and fornicators, and drug users, and idolaters, and all liars, these shall be a part of the pool burning with fire and sulphur, which is the second death.” (Rev 21:8)"),
+    fornicationModel(id:9, header: "", body: "(Deut 22:23-24)"),
+    fornicationModel(id:10, header: "", body: "This is the will of God, your sanctification: that you should abstain from fornication. (1 Thes 4:3)"),
+    fornicationModel(id:10, header: "", body: "For neither fornicators, nor idolaters, nor adulterers, nor the male prostitutes, nor sodomites, nor thieves, nor the greedy, nor the drunkards, nor slanderers, nor thieves shall inherit the kingdom of God. (1 Cor 6:9-10)"),
 ]
 
 let adulteryData: [adulteryModel] = [
