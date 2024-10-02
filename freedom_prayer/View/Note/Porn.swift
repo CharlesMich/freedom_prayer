@@ -13,7 +13,7 @@ struct Porn: View {
         NavigationStack{
             ScrollView {
                 VStack (alignment: .leading) {
-                    Text("Bible verses about masturbation")
+                    Text("Bible verses about Porn")
                         .fontWeight(.bold)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     

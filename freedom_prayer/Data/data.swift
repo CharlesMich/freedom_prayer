@@ -273,27 +273,70 @@ let fornicationData: [fornicationModel] = [
 ]
 
 let adulteryData: [adulteryModel] = [
-    adulteryModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    adulteryModel(id:1, header: "", body: "Whoever is an adulterer, because of the emptiness of his heart, will destroy his own soul. He gathers shame and dishonor to himself, and his disgrace will not be wiped away. (Pro 6:32-33)"),
+    adulteryModel(id:2, header: "", body: "Why are you seduced, my son, by a strange woman, and why are you kept warm by the bosom of another? (Pro 5:20)"),
+    adulteryModel(id:3, header: "", body: "Sit not at all with another man's wife, nor repose upon the bed with her. And strive not with her over wine, lest your heart decline towards her, and by thy blood thou fall into destruction. (Sir 9:9)"),
+    adulteryModel(id:4, header: "", body: "(Pro 6:26)"),
+    adulteryModel(id:5, header: "", body: "Let marriage be held in honor by all, and let the marriage bed be kept undefiled; for God will judge fornicators and adulterers. (Heb 13:4)"),
+    adulteryModel(id:6, header: "", body: "(Exo 20:14)"),
+    adulteryModel(id:7, header: "", body: "(Lev 20:10)"),
+    adulteryModel(id:8, header: "", body: "(Deut 22:22)"),
+    adulteryModel(id:9, header: "", body: "(Lev 18:20)"),
+    adulteryModel(id:10, header: "", body: "(Jer 29:23)")
 ]
 
 let homosexualityData: [homosexualityModel] = [
-    homosexualityModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    homosexualityModel(id:1, header: "", body: "You shall not commit sexual acts with a male, in place of sexual intercourse with a female, for this is an abomination. (Lev 18:22)"),
+    homosexualityModel(id:2, header: "", body: "Their females have exchanged the natural use of the body for a use which is against nature. And similarly, the males also, abandoning the natural use of females, have burned in their desires for one another: males doing with males what is disgraceful, and receiving within themselves the recompense that necessarily results from their error. (Rom 1:26-27)"),
+    homosexualityModel(id:3, header: "", body: "If any man has slept with a male in place of sexual intercourse with a female, both have committed a nefarious act, they shall die a death. So let their blood be upon them. (Lev 20:13)"),
+    homosexualityModel(id:4, header: "", body: "Look at all the works of the Most High; they come in pairs, one the opposite of the other. (Sir 33:15, NRSVCE) "),
+    homosexualityModel(id:5, header: "", body: "All things come in pairs, one opposite the other, and he has made nothing incomplete. (Sir 42:24, NRSVCE)"),
+    homosexualityModel(id:6, header: "", body: "From the beginning of creation, ‘God made them male and female.’ (Mrk 10:6)"),
+    homosexualityModel(id:7, header: "", body: "“Have you not read that he who made man from the beginning, made them male and female?” And he said: “For this reason, a man shall separate from father and mother, and he shall cling to his wife, and these two shall become one flesh. (Matt 19:4-5)"),
+    homosexualityModel(id:8, header: "", body: "He created them, male and female; and he blessed them. (Gen 5:2)"),
+    homosexualityModel(id:9, header: "", body: "(1 Tim 1:8-11)"),
+    homosexualityModel(id:10, header: "", body: "(Jude 1:7)"),
 ]
 
 let pornData: [pornModel] = [
-    pornModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    pornModel(id:1, header: "", body: "I say to you, that anyone who will have looked at a woman, so as to lust after her, has already committed adultery with her in his heart. (Matt 5:28)"),
+    pornModel(id:2, header: "", body: "Let each one cast away the offenses of his eyes, and do not choose to defile yourselves with the idols of Egypt. I am the Lord your God. (Eze 20:7)"),
 ]
 
 let prostitutionData: [prostitutionModel] = [
-    prostitutionModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    prostitutionModel(id:1, header: "", body: "You should not give your soul, in any way, to prostitutes, lest you destroy yourself and your inheritance. (Sir 9:6)"),
+    prostitutionModel(id:2, header: "", body: "There were also male temple prostitutes in the land and they committed all the abominations of the peoples that the Lord had destroyed before the face of the sons of Israel. (1 Kgs 14:24)"),
+    prostitutionModel(id:3, header: "", body: "For a prostitute is a deep ditch: and an adulteress is a narrow pit. She lies in wait in the way as a robber, and him whom she shall see unwary, she will kill. (Pro 23:27-28)"),
+    prostitutionModel(id:4, header: "", body: " (1 Kgs 15:12)"),
+    prostitutionModel(id:5, header: "", body: "(1 Cor 6:16)"),
+    prostitutionModel(id:6, header: "", body: " (2 Kgs 23:7)"),
+    prostitutionModel(id:7, header: "", body: " (1 Cor 6:9)"),
+    prostitutionModel(id:8, header: "", body: " (Deut 23:17)"),
+    prostitutionModel(id:9, header: "", body: " (Sir 19:2)"),
+    prostitutionModel(id:10, header: "", body: " (Lev 19:29)"),
 ]
 
 let eyesData: [eyesModel] = [
-    eyesModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    eyesModel(id:1, header: "", body: "The lamp of your body is your eye. If your eye is wholesome, your entire body will be filled with light. But if your eye has been corrupted, your entire body will be darkened. If then the light that is in you is darkness, how great will that darkness be! (Matt 6:22-23)"),
+    eyesModel(id:2, header: "", body: "You have heard that it was said to the ancients: ‘You shall not commit adultery.’ But I say to you, that anyone who will have looked at a woman, so as to lust after her, has already committed adultery with her in his heart. And if your right eye causes you to sin, root it out and cast it away from you. For it is better for you that one of your members perish, than that your whole body be cast into Hell. (Matt 5:27-29)"),
+    eyesModel(id:3, header: "", body: "You should not stare at a virgin, lest perhaps you may be scandalized by her beauty. (Sir 9:5)"),
+    eyesModel(id:4, header: "", body: "Turn away your eyes from a shapely woman, and do not gaze at beauty belonging to another. (Sir 9:8, NRSVCE)"),
+    eyesModel(id:5, header: "", body: "I reached an agreement with my eyes, how then could I gaze at a virgin. (Job 31:1) "),
+    eyesModel(id:6, header: "", body: "Turn my eyes away, lest they see what is vain. Revive me in your way. (Ps 119:37)"),
+    eyesModel(id:7, header: "", body: "While these things were taking place, David happened to arise from his bed after midday, and he walked upon the terrace of the king’s house. And he saw, across from his terrace, a woman washing herself. And the woman was very beautiful. (2 Sam 11:2)"),
+    eyesModel(id:8, header: "", body: "Let each one cast away the offenses of his eyes, and do not choose to defile yourselves with the idols of Egypt. I am the Lord your God. (Eze 20:7)"),
+    eyesModel(id:9, header: "", body: "And so, after many days, his his master’s wife cast her eyes on Joseph, and she said, “Sleep with me.” (Gen 39:7)")
 ]
 
 let thoughtsData: [thoughtsModel] = [
-    thoughtsModel(id:1, header: "We get into the presence of God", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    thoughtsModel(id:1, header: "", body: "Whatever is true, whatever is chaste, whatever is just, whatever is holy, whatever is worthy to be loved, whatever is of good repute, if there is any virtue, if there is any praiseworthy discipline: meditate on these. (Phil 4:8)"),
+    thoughtsModel(id:2, header: "", body: "Who would impose scourges over my thoughts and over the discipline of wisdom in my heart. (Sir 23:2)"),
+    thoughtsModel(id:3, header: "", body: "Set your mind on things that are above, not the things that are upon the earth. (Col 3:2)"),
+    thoughtsModel(id:4, header: "", body: "For certainly, you have listened to him, and you have been instructed in him, according to the truth that is in Jesus: to set aside your earlier behavior, the former man, who was corrupted, by means of desire, unto error, and so be renewed in the spirit of your mind, and so put on the new man, who, in accord with God, is created in justice and in the holiness of truth. (Eph 4:21-24)"),
+    thoughtsModel(id:5, header: "", body: "Do not choose to be conformed to this age, but instead choose to be reformed in the newness of your mind, so that you may demonstrate what is the will of God: what is good, and what is well-pleasing, and what is perfect. (Rom 12:2)"),
+    thoughtsModel(id:6, header: "", body: "The Lord comprehends all knowledge, and he has gazed upon the signs of the times: announcing the things of the past, as well as the things of the future, and revealing the traces of hidden things. No thought passes by him unnoticed, and no word can conceal itself from him. (Sir 42:19-20)"),
+    thoughtsModel(id:7, header: "", body: "Do not choose to have the minds of children. Instead, be free of malice like infants, but be mature in your minds. (1 Cor 14:20)"),
+    thoughtsModel(id:8, header: "", body: "To set the mind on the flesh is death, but to set the mind on the Spirit is life and peace. (Rom 8:6)")
 ]
 
 let masturbationData: [masturbationModel] = [
