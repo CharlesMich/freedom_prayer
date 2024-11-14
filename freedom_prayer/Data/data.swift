@@ -340,13 +340,13 @@ let thoughtsData: [thoughtsModel] = [
 ]
 
 let masturbationData: [masturbationModel] = [
-    masturbationModel(id:1, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    masturbationModel(id:2, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    masturbationModel(id:3, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    masturbationModel(id:4, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    masturbationModel(id:5, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    masturbationModel(id:6, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)"),
-    masturbationModel(id:1, header: "", body: "For God so loved the world that he gave his only Son, so that everyone who believes in him may not perish but may have eternal life. (John 4.16)")
+    masturbationModel(id:1, header: "", body: "I say to you, that anyone who will have looked at a woman, so as to lust after her, has already committed adultery with her in his heart. And if your right eye causes you to sin, root it out and cast it away from you. For it is better for you that one of your members perish, than that your whole body be cast into Hell. And if your right hand causes you to sin, cut it off and cast it away from you. For it is better for you that one of your members perish, than that your whole body go into Hell. (Matt 5:28-30)"),
+    masturbationModel(id:2, header: "", body: "Lev 15:16-18"),
+    masturbationModel(id:3, header: "", body: ", Deut 23:10"),
+    masturbationModel(id:4, header: "", body: ""),
+    masturbationModel(id:5, header: "", body: ""),
+    masturbationModel(id:6, header: "", body: ""),
+    masturbationModel(id:1, header: "", body: "")
 ]
 
 
